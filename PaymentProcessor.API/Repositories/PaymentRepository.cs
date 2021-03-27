@@ -18,6 +18,7 @@ namespace PaymentProcessor.API.Repositories
 
         public int AddPaymentDetails(Payment payment)
         {
+            // Added by Dipankar on Mar 27, 2021
             if (payment == null)
                 return 0;
             payment.PaymentStatus = new PaymentStatus()
